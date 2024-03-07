@@ -1,0 +1,25 @@
+{
+  "name": "jet-dark",
+  "displayName": "Jet-dark",
+  "description": "Dark theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheQazaqApe/jet-dark.git"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jet-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Jet-dark-color-theme.json"
+      }
+    ]
+  }
+}
