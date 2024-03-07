@@ -139,7 +139,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment.block", "comment.line", "comment.block punctuation"],
+      "scope": ["comment.block", "comment.line", "comment.line punctuation", "comment.block punctuation"],
       "settings": {
         "foreground": "#7A7E85"
       }
