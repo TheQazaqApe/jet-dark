@@ -1,5 +1,8 @@
 # jet-dark README
 
+Inspired by Jetbrains' Dark theme. (<Ctrl>+C <Ctrl>+V)
+Built on top of VS Dark Modern theme.
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
