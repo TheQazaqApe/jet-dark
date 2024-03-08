@@ -139,14 +139,22 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment.block", "comment.line", "comment.line punctuation", "comment.block punctuation"],
+      "scope": [
+        "comment.block",
+        "comment.line",
+        "comment.line punctuation",
+        "comment.block punctuation"
+      ],
       "settings": {
         "foreground": "#7A7E85"
       }
     },
     {
       "name": "Documentation",
-      "scope": ["comment.block.documentation", "comment.block.documentation punctuation"],
+      "scope": [
+        "comment.block.documentation",
+        "comment.block.documentation punctuation"
+      ],
       "settings": {
         "foreground": "#5F826B"
       }
@@ -155,14 +163,18 @@
       "name": "JSDoc tag",
       "scope": ["storage.type.class.jsdoc"],
       "settings": {
-        "foreground": "#67A37C",
+        "foreground": "#67A37C"
       }
     },
     {
       "name": "JSDoc type",
-      "scope": ["variable.other.jsdoc"],
+      "scope": [
+        "variable.other.jsdoc",
+        "entity.name.type.instance.jsdoc",
+        "comment.block.documentation entity.name.type.instance.jsdoc punctuation"
+      ],
       "settings": {
-        "foreground": "#ABADB3",
+        "foreground": "#ABADB3"
       }
     },
     {
@@ -186,7 +198,12 @@
     },
     {
       "name": "Punctuations, Operators, Arrow Function",
-      "scope": ["punctuation", "string meta.template.expression", "keyword.operator", "storage.type.function.arrow"],
+      "scope": [
+        "punctuation",
+        "string meta.template.expression",
+        "keyword.operator",
+        "storage.type.function.arrow"
+      ],
       "settings": {
         "foreground": "#BCBEC4"
       }
@@ -239,63 +256,23 @@
       }
     },
     {
-      "name": "HTML Attributes",
+      "name": "Regular Expressions",
       "scope": [
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
+        "string.regexp",
+        "string.regexp keyword",
+        "string.regexp punctuation",
+        "string.regexp keyword.operator",
+        "string.regexp constant.character.escape"
       ],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FFCB6B"
-      }
-    },
-    {
-      "name": "CSS Classes",
-      "scope": ["entity.other.attribute-name.class"],
-      "settings": {
-        "foreground": "#FFCB6B"
-      }
-    },
-    {
-      "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
-      "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "Inserted",
-      "scope": ["markup.inserted"],
-      "settings": {
-        "foreground": "#C3E88D"
-      }
-    },
-    {
-      "name": "Deleted",
-      "scope": ["markup.deleted"],
-      "settings": {
-        "foreground": "#FF5370"
-      }
-    },
-    {
-      "name": "Changed",
-      "scope": ["markup.changed"],
-      "settings": {
-        "foreground": "#C792EA"
-      }
-    },
-    {
-      "name": "Regular Expressions",
-      "scope": ["string.regexp"],
-      "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#42C3D3"
       }
     },
     {
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -313,22 +290,29 @@
       }
     },
     {
-      "name": "ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FF5370"
-      }
-    },
-    {
       "name": "JSON Key",
       "scope": [
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#C77DBB"
+      }
+    },
+    {
+      "name": "YAML Tag",
+      "scope": ["source.yaml entity.name.tag"],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "name": "HTML Tag",
+      "scope": [
+        "text.html entity.name.tag.html",
+        "text.html punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
       }
     }
   ],
