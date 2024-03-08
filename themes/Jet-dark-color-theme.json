@@ -186,7 +186,7 @@
     },
     {
       "name": "Punctuations, Operators, Arrow Function",
-      "scope": ["punctuation", "keyword.operator", "storage.type.function.arrow"],
+      "scope": ["punctuation", "string meta.template.expression", "keyword.operator", "storage.type.function.arrow"],
       "settings": {
         "foreground": "#BCBEC4"
       }
