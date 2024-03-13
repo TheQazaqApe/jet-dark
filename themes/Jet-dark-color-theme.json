@@ -189,6 +189,7 @@
       "scope": [
         "keyword",
         "keyword.operator.new",
+        "keyword.operator.expression.of",
         "storage.type",
         "storage.modifier"
       ],
